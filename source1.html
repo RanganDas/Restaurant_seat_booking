@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Booking Website</title>
+    <link rel="stylesheet" href="source.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <!-- ---------------headerbar----------------- -->
+            <div class="headerbar">
+                <div class="account">
+                    <ul>
+                        <a href="user_login.php">
+                            <li>
+                                <i class="fa-solid fa-user" id="user-mb"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <a href="#">
+                            <li>Home</li>
+                        </a>
+                        <a href="#">
+                            <li>Restaurant</li>
+                        </a>
+                        <a href="contact_us.php">
+                            <li>Contact Us</li>
+                        </a>
+                        <a href="about_page.html">
+                            <li>About</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="image_logo.jpeg" alt="">
+            </div>
+            <div class="bar">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark" id="hdcross"></i>
+            </div>
+            <div class="nav">
+                <ul>
+                    <a href="source1.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="Restaurant_prime_nonprime.html">
+                        <li>Restaurant</li>
+                    </a>
+                    <a href="contact_us.php">
+                        <li>Contact Us</li>
+                    </a>
+                    <a href="about_page.html">
+                        <li>About</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="account">
+                <ul>
+                    <a href="user_profile.php">
+                        <li>
+                            <i class="fa-solid fa-user" id="user-lap"></i>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+        <!-- --------------------------home page--------------- -->
+        <div class="home">
+            <div class="main-slide">
+                <div>
+                    <h1>Enjoy <span>Delicious Food</span> at right time.</h1>
+                    <p>If you are looking for the best Restuarents in our city and want to book tables online then you are in right place. 
+                        We are happy to help you. 
+                        To explore the best Restuarents and foods press the explore button below and start explore now.</p>
+                    <button class="red-btn"> Visit now <i class="fa-solid fa-arrow-right-long"></i> </button>
+                </div>
+                <div>
+                    <img src="food_plate.jpeg" alt="">
+                </div>
+            </div>
+    
+            <div class="main-slide2">
+                <div class="foodimg">
+                    <img src="41.jpg" alt="">
+                </div>
+                <div class="question">
+                     <div>
+                         <h2>Why people choose us?</h2>
+                    </div>
+                    <div>
+                        <div class="q-ans">
+                            <div>
+                                <img src="plate1.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Choose your seat</h4>
+                                <p>You can choose your seat at right time.</p>
+                            </div>
+                        </div>
+                        <div class="q-ans">
+                            <div>
+                                <img src="plate2.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Choose your favourite</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, iste.</p>
+                            </div>
+                        </div>
+                        <div class="q-ans">
+                            <div>
+                                <img src="plate3.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Choose your favourite</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, iste.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer">
+            <div class="footer-1">
+                <div class="logo">
+                    <img src="image_logo.jpeg" alt="">
+                </div>
+                <address>
+                    <p>Email: bookintime.customersupport@gmail.com</p>
+                    <p>Youtube: BookInTime</p>
+                    <p>Kolkata, 700032<br>India</p>
+                    <p class="row">Copyright © 2023 - All rights reserved</p>
+                </address>
+            </div>
+    
+            <div class="footer-2">
+                 <h2>Powered By <em>Yummseats</em> Team</h2>
+            </div>
+        </div>
+    
+        <script src="source.js"></script>
+        <script>
+            window.onload = function() {
+                var urlParams = new URLSearchParams(window.location.search);
+                var source = urlParams.get('source');
+        
+                if (source === 'final_button') {
+                    alert("Table booked Successfully!");
+                }
+            };
+        
+            function validateForm() {
+                // Ekhane validation logic add kora jabe 
+                // Return true if the form is valid, otherwise return false
+            }
+        </script>
+    </body>
+</html>

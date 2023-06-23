@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Admin Page</title>
+    <link rel="stylesheet" href="Restaurant_admin_page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+<body>
+      <!-- -----navbar---- -->
+      <nav class="navbar">
+           <h4>Dashboard</h4>
+           <div class="profile">
+                <img src="plate1.png" alt="" class="profile-image">
+                <p class="profile-name">Tuhin Mondal</p>
+           </div>
+      </nav>
+
+      <!-- -----sidebar---- -->
+      <input type="checkbox" id="toggle">
+      <label class="side-toggle" for="toggle"><span class="fas fa-bars"></span></label>
+      
+      <div class="sidebar">
+        <a href="Restaurant_admin_page.html">
+            <div class="sidebar-menu">
+                    <span class="fas fa-clipboard-list"></span>
+                    <p>Profile</p>
+            </div>
+       </a>
+       <a href="Restaurant_review.php">
+            <div class="sidebar-menu">
+                    <span class="fas fa-users"></span>
+                    <p>Reviews</p>
+            </div>
+        </a>
+        <a href="">
+            <div class="sidebar-menu">
+                    <span class="fas fa-credit-card"></span>
+                    <p>Payment</p>
+            </div>
+        </a>
+        <a href="#">
+            <div class="sidebar-menu">
+                    <span class="fas fa-chart-line"></span>
+                    <p>Statistic</p>
+            </div>
+        </a>
+        <a href="#">
+            <div class="sidebar-menu">
+                    <span class="fas fa-id-card"></span>
+                    <p>Contact</p>
+            </div>
+        </a>
+        <a href="#">
+            <div class="sidebar-menu">
+                    <span class="fas fa-cog"></span>
+                    <p>Settings</p>
+            </div>
+        </a>
+      </div>
+      <!-- -----main dashboard---- -->
+      <main>
+           <div class="dashboard-container">
+                <!-- -------------4 cards top------- -->
+                <div class="card total1" >
+                    <div class="info">
+                        <div class="info-detail">
+                            <h3>Revenue</h3>
+                            <p>Lorem Dolar</p>
+                            <h2>12000 <span>Rupees</span> </h2>
+                        </div>
+                        <div class="info-image">
+                            <i class="fas fa-money-check-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card total2" >
+                    <div class="info">
+                        <div class="info-detail">
+                            <h3>Total Orders</h3>
+                            <p>Lorem Dolar</p>
+                            <h2>1200 <span>Orders</span> </h2>
+                        </div>
+                        <div class="info-image">
+                            <i class="fas fa-boxes"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card total3" >
+                    <div class="info">
+                        <div class="info-detail">
+                            <h3>Customers</h3>
+                            <p>Lorem Dolar</p>
+                            <h2>100 <span>Companies</span> </h2>
+                        </div>
+                        <div class="info-image">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card total4" >
+                    <div class="info">
+                        <div class="info-detail">
+                            <h3>Daily Order</h3>
+                            <p>Lorem Dolar</p>
+                            <h2>12 <span>Orders</span> </h2>
+                        </div>
+                        <div class="info-image">
+                            <i class="fas fa-shipping-fast"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- --------------2 cards bottom------ -->
+                <div class="card detail">
+                    <div class="detail-header">
+                        <h2>All Orders</h2>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Booked Seat</th>
+                            <th>Date</th>
+                            <th>Time</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Tuhin Mondal</td>
+                            <td>tuhin@gmail.com</td>
+                            <td>4</td>
+                            <td>04-12-2023</td>
+                            <td>12:30</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Tuhin Mondal</td>
+                            <td>tuhin@gmail.com</td>
+                            <td>4</td>
+                            <td>04-12-2023</td>
+                            <td>12:30</td>
+                        </tr>
+            
+                    </table>
+                </div>
+           </div>
+      </main>
+</body>
+</html>

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0)), url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+header {
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+.header-image {
+    width: 100%;
+    position: absolute;
+    top: -20vh;
+    z-index: -1;
+}
+.header-image img {
+    width: 100%;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    margin: 0 40px;
+}
+
+.nav-bar {
+    list-style: none;
+    font-weight: lighter;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-bar li a 
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7vh;
+    align-items: center;
+}
+.logo {
+    width: 20vw;
+}
+.head h3 {
+    font-size: 2.1rem;
+    color: whitesmoke;
+    font-weight: 400;
+}
+.search {
+    display: flex;
+    width: 55vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    padding: 5px 4px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-weight:500;
+    border-color: crimson;
+}
+
+.search1 {
+    display: flex;
+    width: 55vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    padding: 5px 4px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-weight:500;
+}

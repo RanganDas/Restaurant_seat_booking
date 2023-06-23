@@ -1,0 +1,137 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1px;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0)), url(food.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0px auto;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, .1);
+    display: grid;
+    gap: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+
+  }
+
+  .container-type {
+    padding: 50px;
+    outline: 3px solid red;
+    outline-offset: -30px;
+    text-align: center;
+    background-color: black;
+    cursor: pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    border-radius: 10px;
+    border: 5px solid yellow;
+}
+
+.container-type:hover
+{
+    transform: scale(1.03);
+      -webkit-transform: scale(1.03);
+      -moz-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+      -o-transform: scale(1.03);
+      box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
+      background-color: darkslateblue;
+      outline: 3px solid yellow;
+}
+
+
+.btn {
+    background-color: rgba(0, 0, 0, .95);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    box-shadow: 7px 10px 12px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    background-color: coral;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
+    background-color: black;
+    color: white;
+}
+
+.btn1
+{
+    background-color: rgba(0, 0, 0, .95);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    box-shadow: 7px 10px 12px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    background-color: coral;
+}
+
+.btn1:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
+    background-color: aquamarine;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 880px) {
+    .container-type {
+        padding: 30px;
+    }
+}
