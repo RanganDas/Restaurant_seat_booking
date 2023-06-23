@@ -1,4 +1,4 @@
-/.JPG
-/.PNG
-/PHPMailer
-/.pdf
+*.jpg
+*.png
+PHPMailer
+
